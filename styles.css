@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/outfit/Outfit-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('./assets/fonts/outfit/Outfit-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(30, 54%, 90%);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1, h2 {
+  font-family: 'Young Serif', serif;
+}
+
+.container {
+  width: 650px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+.recipe-image {
+  width: 100%;
+}
+
+.recipe-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+.Preparation {
+  width: 100%;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.ordered-list {
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.ordered-list li::marker {
+  font-weight: 700;
+}
+
+.unordered-list {
+  margin-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+}
+
+h1,
+p,
+h2 {
+  width: 100%;
+}
+li{
+  font-size: 14px;
+}
+.info {
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+.Preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.bold {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+.bold-text {
+  color: hsl(30, 10%, 34%);
+  font-weight: bold;
+}
+.para{
+  color: hsl(210, 10%, 34%);
+}
+h2 {
+  margin-top: 20px;
+  color: hsl(14, 45%, 36%);
+}
+.two-section li::marker {
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  color: gray;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
